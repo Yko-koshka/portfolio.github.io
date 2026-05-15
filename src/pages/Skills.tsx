@@ -64,7 +64,7 @@ export const skills: SkillCategory[] = [
 
 const Skills = () => {
   return (
-    <section className="py-28 bg-emerald-50 text-emerald-900 text-center">
+    <section className="h-screen py-28 bg-emerald-50 text-emerald-900 text-center">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
